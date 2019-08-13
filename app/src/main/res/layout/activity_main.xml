@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_red"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/red"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="4dp"
+                android:onClick="playnote1"/>
+
+            <Button
+                android:id="@+id/btn_orange"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/orange"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="111dp"
+                android:onClick="playnote2"/>
+
+            <Button
+                android:id="@+id/btn_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/yellow"
+                android:onClick="playnote3"/>
+
+            <Button
+                android:id="@+id/btn_turquoise"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/turquoise"
+                android:onClick="playnote4"/>
+
+            <Button
+                android:id="@+id/btn_green"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/green"
+                android:onClick="playnote5"/>
+
+            <Button
+                android:id="@+id/btn_blue"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/blue"
+                android:onClick="playnote6"/>
+
+            <Button
+                android:id="@+id/btn_purple"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/purple"
+                android:onClick="playnote7"/>
+
+            <Button
+                android:id="@+id/btn_pink"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/pink"
+                android:onClick="playnote8"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
